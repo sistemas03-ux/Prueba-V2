@@ -8,3 +8,15 @@ header {
     text-align: center;
     padding: 20px;
 }
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
