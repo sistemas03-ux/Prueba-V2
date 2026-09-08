@@ -238,7 +238,40 @@ Date:   Tue Sep 8 09:45:36 2026 -0600
 Administrator@DESKTOP-B35M9DA MINGW64 ~/documents/GiThUB/Practica (master)
 $
 
- 
+
+
+## Rama protegida
+
+Una rama protegida es una rama de un repositorio a la que se le aplican reglas para evitar cambios directos o accidentales.
+
+Por ejemplo, la rama `main` puede configurarse para exigir que los cambios se realicen mediante Pull Requests y sean revisados antes de incorporarse.
+
+Las reglas de protección ayudan a mantener la calidad del código y a evitar que modificaciones sin revisión lleguen directamente a la rama principal.
+
+## Organización de GitHub
+
+Una organización de GitHub es un espacio compartido que permite administrar repositorios y colaborar con otras personas.
+
+A diferencia de una cuenta personal, una organización está pensada para equipos, proyectos, empresas o grupos que necesitan administrar conjuntamente repositorios, permisos y miembros.
+
+Las organizaciones permiten establecer diferentes niveles de acceso para los integrantes y facilitan la administración de proyectos colaborativos.
+
+## Deploy key
+
+Una deploy key es una llave SSH asociada directamente con un repositorio de GitHub.
+
+Puede utilizarse para permitir que un servidor o sistema automatizado acceda a un repositorio mediante SSH sin utilizar las credenciales personales de un usuario.
+
+Una deploy key debe manejarse cuidadosamente porque proporciona acceso al repositorio al que está asociada. Dependiendo de su configuración puede tener permisos de lectura o también de escritura.
+
+## Diferencia entre una llave SSH personal y una deploy key
+
+Una llave SSH personal se utiliza para autenticar a una persona con GitHub y permitirle trabajar con los repositorios a los que tiene acceso.
+
+Una deploy key, en cambio, está vinculada directamente a un repositorio y normalmente se utiliza para automatizaciones o servidores que necesitan acceder a ese repositorio.
+
+Por lo tanto, no deben confundirse: una llave SSH personal identifica al usuario, mientras que una deploy key proporciona acceso específico a un repositorio.
+
 
 
 
