@@ -271,7 +271,3 @@ Una llave SSH personal se utiliza para autenticar a una persona con GitHub y per
 Una deploy key, en cambio, está vinculada directamente a un repositorio y normalmente se utiliza para automatizaciones o servidores que necesitan acceder a ese repositorio.
 
 Por lo tanto, no deben confundirse: una llave SSH personal identifica al usuario, mientras que una deploy key proporciona acceso específico a un repositorio.
-
-
-
-
