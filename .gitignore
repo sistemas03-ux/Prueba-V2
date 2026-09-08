@@ -1,0 +1,9 @@
+.env
+vendor/
+node_modules/
+
+*.key
+*.pem
+
+.env.*
+!.env.example
